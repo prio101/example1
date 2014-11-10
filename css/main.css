@@ -1,27 +1,39 @@
-body{
-    background-color: #222222 !important;
+/*Slider*/
+.slider img{
+    min-width: 100% !important;
+    max-height: 550px !important;
+
 }
 
-.bg{
-    background-size: cover;
-    background-image: url('../img/1.jpg');
-    max-width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
+
+/*Align Center*/
 .align-center{
     text-align: center;
 }
 
-.jumbotron-caption{
-    color: #ffffff !important;
+/*jumbotron Head Styled*/
+.jum-head{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 700;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 800;
 }
 
+/*Power talk*/
+.power{
+    font-family: fantasy;
+    font-weight: 300;
+    font-size: .9em;
+}
+
+
+
+
+
+/*Footer*/
 .footer{
-    color: #ffffff !important;
+    color: #444444 !important;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 600;
     font-size: .9em;
